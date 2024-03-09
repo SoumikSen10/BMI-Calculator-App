@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/llmain"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/img"
+        app:srcCompat="@drawable/bmi" />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:ems="14"
+        android:hint="@string/hint_wt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtHeightFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:ems="14"
+        android:hint="@string/hint_htFt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtHeightIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:ems="14"
+        android:hint="@string/hint_htIn"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt"
+        android:layout_marginTop="14dp"
+        android:id="@+id/btn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview"
+        android:text="@string/txt_Res"
+        android:background="@color/white"
+        android:ems="14"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"/>
+
+
+  </LinearLayout>
